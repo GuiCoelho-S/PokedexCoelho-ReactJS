@@ -2,7 +2,7 @@ import { ContainerGrid } from "../../components/Container";
 import { ContainerMain, ConteudoMain, Procurar, ProcurarPokemon, Title } from "./style";
 import Card from "../../components/Card";
 import { useNomePokemons } from "../../hooks/usePokemon";
-import { Button } from "../../components/Button";
+
 
 const Home = () => {
 
@@ -11,7 +11,7 @@ const Home = () => {
 
   var arr =[];
   arr.push(pokemonData)
-  //console.log(arr)
+  
 
   return (
     <ContainerMain>

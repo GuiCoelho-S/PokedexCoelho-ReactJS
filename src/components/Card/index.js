@@ -7,7 +7,6 @@ import {
   InfoPokemonBase,
   GridPokemon,
   Icon,
-  PokemonMoreInformation,
   DadosGerais,
 } from "./style";
 
